@@ -34,11 +34,13 @@ button:hover {
   align-items: center;
   justify-content: center;
   list-style: none;
+  text-align: center;
   gap: 2vw;
 }
 
 .links a {
   text-decoration: none;
+  text-align: center;
   color: white;
 }
 
@@ -97,4 +99,37 @@ button:hover {
     list-style: none;
     gap: 20vw;
   }
+
+  .links a:hover {
+    font-size: 5vw;
+  }
 }
+
+@media (max-width: 1050px) {
+    input {
+      text-align: center;
+      width: 30vw;
+    }
+  
+    .header {
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 0;
+    }
+  
+    .game {
+      line-height: 7vw;
+      padding: 20vw;
+    }
+  
+    .links {
+      display: flex;
+      list-style: none;
+      gap: 20vw;
+    }
+  
+    .links a:hover {
+      font-size: 5vw;
+    }
+  }
