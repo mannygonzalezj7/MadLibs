@@ -26,7 +26,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20vw;
+  padding: 0 15vw;
 }
 
 .links {
@@ -35,7 +35,8 @@ button:hover {
   justify-content: center;
   list-style: none;
   text-align: center;
-  gap: 2vw;
+  gap: 4vw;
+  padding: 0;
 }
 
 .links a {
@@ -52,7 +53,7 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12vw;
+  padding: 12vw 15vw;
   line-height: 2vw;
   text-align: center;
 }
@@ -84,9 +85,9 @@ button:hover {
 
   .header {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 0;
+    padding: 0 0;
   }
 
   .game {
@@ -96,8 +97,9 @@ button:hover {
 
   .links {
     display: flex;
+    flex-direction: column;
     list-style: none;
-    gap: 20vw;
+    justify-content: center;
   }
 
   .links a:hover {
@@ -113,20 +115,21 @@ button:hover {
   
     .header {
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: center;
       flex-wrap: wrap;
-      padding: 0;
+      padding: 0 0;
     }
   
     .game {
       line-height: 7vw;
-      padding: 20vw;
+      padding: 10vw;
     }
   
     .links {
       display: flex;
+      flex-direction: column;
       list-style: none;
-      gap: 20vw;
+      justify-content: center;
     }
   
     .links a:hover {
