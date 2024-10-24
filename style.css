@@ -27,7 +27,6 @@ button:hover {
   justify-content: space-between;
   align-items: center;
   padding: 0 20vw;
-  background-color: red;
 }
 
 .links {
@@ -73,7 +72,6 @@ button:hover {
   text-align: center;
 
   padding: 2vw;
-  background-color: red;
 }
 
 @media (max-width: 600px) {
